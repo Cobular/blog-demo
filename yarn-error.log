@@ -1,0 +1,49 @@
+Arguments: 
+  /Users/cobular/.nvm/versions/node/v16.17.0/bin/node /Users/cobular/.node/corepack/yarn/1.22.19/bin/yarn.js
+
+PATH: 
+  /Users/cobular/Library/pnpm:/Users/cobular/.pyenv/shims:/Users/cobular/.pyenv/bin:/Users/cobular/.nvm/versions/node/v16.17.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/cobular/.cargo/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+
+npm manifest: 
+  {
+    "name": "blog-demo",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "dev": "vite dev",
+      "build": "vite build",
+      "preview": "vite preview",
+      "lint": "eslint ."
+    },
+    "devDependencies": {
+      "@sveltejs/adapter-auto": "next",
+      "@sveltejs/kit": "next",
+      "eslint": "^8.16.0",
+      "eslint-plugin-svelte3": "^4.0.0",
+      "svelte": "^3.44.0",
+      "vite": "^3.1.0",
+      "sass": "^1.53.0",
+      "svelte-preprocess": "^4.10.7",
+      "mdsvex": "^0.10.6"
+    },
+    "type": "module"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
